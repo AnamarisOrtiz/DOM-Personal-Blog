@@ -11,7 +11,7 @@ tempstorageObject.forEach(element => {
 });
 
 backButton.addEventListener("click", function (event) {
-    /// write code here to add blog to local storage
+    
     event.stopPropagation();
     event.preventDefault();
     window.location.assign(`index.html`);
