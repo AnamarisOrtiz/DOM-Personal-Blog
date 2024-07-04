@@ -1,57 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/blog.css">
 </head>
 
 <body>
-    <!-- <div class="full-page"> -->
+    <div id="body-container">
         <div class="icon-bar">
-            <section>
-                <button class="back-btn">Back</button>
-                <button class="sun-emoji">&#x2600;</button>
+            <section class="icon-bar">
+                <h1>My First Blog</h1>
+                <button id="back-button" class="back-btn"> &#x2190; Back</button>
+                <button class="sun-emoji" id="theme-toggle">&#x2600;</button>
             </section>
-  </div>
-  <div class="container">
+        </div>
+        <div class="top-space"></div>
 
-    <div class="blog-container">
-        <h1>Blog Title</h1>
-        <p class="content-box">here is my content</p>
-        <h2>Posted by:Username</h2>
-    </div>
-    <div class="blog-container">
-        <h1>Title 2</h1>
-        <p class="content-box">here is my content</p>
-        <h2>Posted by:Username</h2>
-    </div>
-    <div class="blog-container">
-        <h1>Title 3</h1>
-        <p class="content-box">here is my content</p>
-        <h2>Posted by:Username</h2>
-    </div>
-    <div class="blog-container">
-        <h1>Here is the Title</h1>
-        <p class="content-box">here is my content</p>
-        <h2>Posted by:Username</h2>
-    </div>
-    <div class="blog-container">
-        <h1>Here is the Title</h1>
-        <p class="content-box">here is my content</p>
-        <h2>Posted by:Username</h2>
-    </div>
+        <div id="blog-posts" class="container">
 
-  </div>
+            <div class="blog-container">
+                <h2>Blog Title</h2>
+                <hr>
+                <p class="content-box">here is my content</p>
+                <h3>Posted by:Username</h3>
+            </div>
+            <div class="blog-container">
+                <h2>Title 2</h2>
+                <hr>
+                <p class="content-box">here is my content</p>
+                <h3>Posted by:Username</h3>
+            </div>
+            <div class="blog-container">
+                <h2>Title 3</h2>
+                <hr>
+                <p class="content-box">here is my content</p>
+                <h3>Posted by:Username</h3>
+            </div>
+            <div class="blog-container">
+                <h2>Here is the Title</h2>
+                <hr>
+                <p class="content-box">here is my content</p>
+                <h3>Posted by:Username</h3>
+            </div>
+            <div class="blog-container">
+                <h2>Here is the Title</h2>
+                <hr>
+                <p class="content-box">here is my content</p>
+                <h3>Posted by:Username</h3>
+            </div>
 
+        </div>
+
+
+        <div class="top-space"></div>
+        <footer class="footerContent">
+            <p class="emojiHeart">Made with <span style="color: #ff0000;">&#10084;</span> by </p>
+            <ul>
+                <li>Portfolio: </li>
+                <li>Blog: Full Stack Blog</li>
+                <li>Email: </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="assets/blog.js"></script>
 </body>
 
-<footer>
-    <p>Made with love by Anamaris</p>
-    <ul>
-        <li>Portfolio</li>
-        <li>Blog</li>
-        <li>Email</li>
-    </ul>
-</footer>
 </html>
