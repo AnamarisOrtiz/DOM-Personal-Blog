@@ -3,7 +3,7 @@ As aweb developer student
 I want a personal blog
 That I can showcase my thoughts and experiences
 This can provide potential employers or collaborators a quick understanding of what the portfolio showcases.
-Live Demo: [url]:
+Live Demo: [Here](https://anamarisortiz.github.io/DOM-Personal-Blog/)
 
  direct link to the live demo of the portfolio for easy access.
 ## table-of-contents
