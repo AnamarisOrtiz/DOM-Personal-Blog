@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dark {
+    background-color: black;
+    color: #fff;
+}
+
+.dark h1 {
+    font-size: 30px;
+    justify-content: left;
+    margin: 15px;
+}
+
+.dark .icon-bar {
+    display: flex;
+    width: 100%;
+
+}
+
+.dark .top-space {
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+
+    height: 4px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.dark .sun-emoji {
+    color: white;
+    max-height: 24px;
+    border: none;
+    background-color: transparent;
+    margin: auto 8px auto 0;
+}
+
+.dark .back-btn {
+    color: black;
+    background-color: white;
+    max-height: 36px;
+    margin: auto 8px auto auto;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.dark .container {
+    padding: 6px;
+}
+
+.dark .blog-container {
+    border: 2px solid white;
+    padding: 4px 10px;
+    margin: 10px 4px 20px 4px;
+    border-radius: 2px;
+}
+
+.dark h2 {
+    font-size: 20px;
+    padding: 2px;
+
+}
+
+.dark .content-box {
+    font-size: 14px;
+    padding: 20px;
+    font-style: italic;
+}
+
+.dark h3 {
+    font-size: 12px;
+
+}
+
+.dark .emojiHeart {
+    text-align: center;
+}
+
+.dark .footerContent {
+    padding: 2px 4px;
+    margin: 6px 30px
+}
+
+.dark ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 4px 6px;
+}
+
+.dark li {
+    margin: 6px 8px;
+    padding: 3px 4px;
+}
+
+.light h1 {
+    font-size: 30px;
+    justify-content: left;
+    margin: 15px;
+}
+
+.light .icon-bar {
+    display: flex;
+    width: 100%;
+
+}
+
+.light .top-space {
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+
+    height: 4px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.light .sun-emoji {
+    color: rgb(201, 185, 37);
+    max-height: 24px;
+    border: none;
+    background-color: transparent;
+    margin: auto 8px auto 0;
+}
+
+.light .back-btn {
+    color: white;
+    background-color: black;
+    max-height: 36px;
+    margin: auto 8px auto auto;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.light .container {
+    padding: 6px;
+}
+
+.light .blog-container {
+    border: 2px solid black;
+    padding: 4px 10px;
+    margin: 10px 4px 20px 4px;
+    border-radius: 2px;
+}
+
+.light h2 {
+    font-size: 20px;
+    padding: 2px;
+
+}
+
+.light .content-box {
+    font-size: 14px;
+    padding: 20px;
+    font-style: italic;
+}
+
+.light h3 {
+    font-size: 12px;
+
+}
+
+.light .emojiHeart {
+    text-align: center;
+}
+
+.light .footerContent {
+    padding: 2px 4px;
+    margin: 6px 30px
+}
+
+.light ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 4px 6px;
+}
+
+.light li {
+    margin: 6px 8px;
+    padding: 3px 4px;
+}
+.sun-emoji:hover,button:hover{
+    cursor: pointer;
+}

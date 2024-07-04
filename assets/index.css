@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dark {
+    background-color: black;
+    color: #fff;
+}
+
+.dark .icon-bar {
+    justify-content: right;
+    display: flex;
+    width: 100%;
+
+}
+
+.dark .top-space {
+    border: 2px solid white;
+    height: 2px;
+    width: 100%;
+    margin: 0;
+}
+
+.dark .container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+.dark .left-border {
+
+    border-left: 2px solid white;
+    margin-left: 1px;
+}
+
+.dark .right-border {
+    border-right: 2px solid white;
+    margin-right: 1px;
+}
+
+.dark .box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.dark .full-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.dark .bottom-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.dark .sunshine {
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    width: 100px;
+    height: 100px;
+}
+
+.dark .sunshine p {
+    margin: auto;
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 2px;
+    text-wrap: nowrap;
+    position: absolute;
+    left: 20%;
+    top: 45%;
+
+}
+
+.dark form label {
+    width: 100%;
+    padding: 8px;
+    font-size: 10px;
+}
+
+.dark form input {
+    width: 100%;
+    margin: 8px;
+
+}
+
+.dark form button {
+    width: 100%;
+    color: black;
+    background-color: white;
+    margin: 8px;
+    padding: 8px;
+}
+
+.dark .container h1 {
+    margin-top: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dark .sun-emoji {
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 8px;
+}
+
+.light .icon-bar {
+    justify-content: right;
+    display: flex;
+    width: 100%;
+
+}
+
+.light .top-space {
+    border: 2px solid black;
+    height: 2px;
+    width: 100%;
+    margin: 0;
+}
+
+.light .container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+.light .left-border {
+
+    border-left: 2px solid black;
+    margin-left: 1px;
+}
+
+.light .right-border {
+    border-right: 2px solid black;
+    margin-right: 1px;
+}
+
+.light .box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.light .full-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.light .bottom-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.light .sunshine {
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    width: 100px;
+    height: 100px;
+}
+
+.light .sunshine p {
+    margin: auto;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 2px;
+    text-wrap: nowrap;
+    position: absolute;
+    left: 20%;
+    top: 45%;
+
+}
+
+.light form label {
+    width: 100%;
+    padding: 8px;
+    font-size: 10px;
+}
+
+.light form input {
+    width: 100%;
+    margin: 8px;
+
+}
+
+.light form button {
+    width: 100%;
+    color: white;
+    background-color: black;
+    margin: 8px;
+    padding: 8px;
+}
+
+.light .container h1 {
+    margin-top: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.light .sun-emoji {
+    color: rgb(201, 185, 37);
+    background-color: transparent;
+    border: none;
+    margin: 8px;
+}
+
+.sun-emoji:hover,button:hover{
+    cursor: pointer;
+}
