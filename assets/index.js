@@ -28,9 +28,10 @@ submitBtn.addEventListener("click", function (event){
     event.stopPropagation();
     event.preventDefault();
 
-    let username = usernameInput.textContent;
-    let title = titleInput.textContent;
-    let content = contentInput.textContent;
+    let username = usernameInput.value;
+    let title = titleInput.value;
+    let content = contentInput.value;
+
     if (!username || !title || !content){
         alert("Please enter username, title, and content to submit!");
         return
@@ -41,7 +42,7 @@ submitBtn.addEventListener("click", function (event){
         content,
     });
 
-    window.localStorage.setItem(JSON.stringify(tempstorageObject));
+    window.localStorage.setItem(localStorageKey, JSON.stringify(tempstorageObject));
     window.location.assign(`blog.html`);
 });
 

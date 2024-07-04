@@ -1,5 +1,14 @@
 const backButton = document.querySelector("#back-button");
 const container = document.querySelector("#body-container");
+const blogPosts = document.querySelector("#blog-posts");
+
+const localStorageKey = "content";
+
+let tempstorageObject = JSON.parse(window.localStorage.getItem(localStorageKey)) || [];
+tempstorageObject.forEach(element => {
+    const post = createBlogPost(element.title, element.username, element.content);
+    blogPosts.appendChild(post);
+});
 
 backButton.addEventListener("click", function (event) {
     /// write code here to add blog to local storage

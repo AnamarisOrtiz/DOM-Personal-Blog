@@ -186,3 +186,6 @@ body {
     margin: 6px 8px;
     padding: 3px 4px;
 }
+.sun-emoji:hover,button:hover{
+    cursor: pointer;
+}

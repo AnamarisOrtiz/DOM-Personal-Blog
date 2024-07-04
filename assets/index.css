@@ -49,7 +49,7 @@ body {
 .dark .box {
     display: flex;
     flex-direction: column;
-
+    margin: auto;
 }
 
 .dark .full-page {
@@ -68,7 +68,7 @@ body {
 .dark .sunshine {
     display: flex;
     position: relative;
-    margin: 40px auto 40px auto;
+    margin: auto;
     padding: 100px;
     border-radius: 50%;
     background: linear-gradient(to bottom, #ff7e5f, #feb47b);
@@ -110,7 +110,7 @@ body {
 }
 
 .dark .container h1 {
-    padding-top: 100px;
+    margin-top: auto;
     text-align: center;
     font-size: 18px;
 }
@@ -158,7 +158,7 @@ body {
 .light .box {
     display: flex;
     flex-direction: column;
-
+    margin: auto;
 }
 
 .light .full-page {
@@ -177,7 +177,7 @@ body {
 .light .sunshine {
     display: flex;
     position: relative;
-    margin: 40px auto 40px auto;
+    margin: auto;
     padding: 100px;
     border-radius: 50%;
     background: linear-gradient(to bottom, #ff7e5f, #feb47b);
@@ -219,7 +219,7 @@ body {
 }
 
 .light .container h1 {
-    padding-top: 100px;
+    margin-top: auto;
     text-align: center;
     font-size: 18px;
 }
@@ -229,4 +229,8 @@ body {
     background-color: transparent;
     border: none;
     margin: 8px;
+}
+
+.sun-emoji:hover,button:hover{
+    cursor: pointer;
 }
